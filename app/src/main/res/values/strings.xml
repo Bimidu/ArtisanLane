@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ArtisanLane</string>
+    <string name="app_name_cd">ArtisanLane Logo</string>
+    <string name="welcome01_desc">Discover, connect, and shop from local artisans crafting stories into every creation.</string>
+    <string name="next">Next</string>
+</resources>
