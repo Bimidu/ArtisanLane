@@ -8,4 +8,6 @@ class Welcome_01Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome01)
     }
+
+    
 }

@@ -3,6 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="dark">#0A0908</color>
-    <color name="light">#D9D9D9</color>
+    <color name="dark_grey">#0A0908</color>
+    <color name="light_grey">#D9D9D9</color>
+    <color name="medium_grey">#858585</color>
+    <color name="accent_blue">#2A5BDC</color>
+    <color name="accent_red">#EF4444</color>
 </resources>

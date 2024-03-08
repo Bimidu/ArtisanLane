@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">ArtisanLane</string>
     <string name="app_name_cd">ArtisanLane Logo</string>
-    <string name="welcome01_desc">Discover, connect, and shop from local artisans crafting stories into every creation.</string>
+
+    <string name="welcome01_title">A place for local artists</string>
+    <string name="welcome01_desc">Discover a vibrant space for local artists to showcase and collaborate. Celebrate creativity with us!</string>
+
+    <string name="welcome02_title">Explore local handmade crafts</string>
+    <string name="welcome02_desc">Discover locally crafted treasures, celebrating community artistry and creativity.</string>
+
+    <string name="welcome03_title">Sell your products directly</string>
+    <string name="welcome03_desc">Directly sell your products for seamless transactions and enhanced customer satisfaction.</string>
+
     <string name="next">Next</string>
 </resources>
