@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">ArtisanLane</string>
     <string name="app_name_cd">ArtisanLane Logo</string>
+    <string name="user_name">Bimidu Gunathilake</string>
+    <string name="acc_type">Buyer and Seller Account</string>
+    <string name="acc_email">bimidugunathilake@gmail.com</string>
+    <string name="acc_location">Kurunegala, Sri Lanka</string>
 
     <string name="welcome01_title">A place for local artists</string>
     <string name="welcome01_desc">Discover a vibrant space for local artists to showcase and collaborate. Celebrate creativity with us!</string>
