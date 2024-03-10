@@ -53,5 +53,11 @@ class Home_Activity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnNavigate3: Button = findViewById(R.id.seeallcategories)
+        btnNavigate3.setOnClickListener {
+            val intent = Intent(this, Categories_Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

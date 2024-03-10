@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/circularstd_medium"
-                    android:text="@string/featured"
+                    android:text="@string/categories"
                     android:textColor="@color/dark_grey"
                     android:textSize="36sp" />
 
@@ -147,7 +147,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_9"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -158,7 +158,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_10"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -169,7 +169,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_11"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -180,7 +180,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_12"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -191,7 +191,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_13"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -202,7 +202,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_14"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -213,7 +213,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_15"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -224,7 +224,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_16"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -235,7 +235,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_17"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -246,7 +246,7 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_18"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
 
@@ -257,7 +257,18 @@
                     android:layout_marginBottom="1dp"
                     android:backgroundTint="@color/subtle_dark"
                     android:fontFamily="@font/circularstd"
-                    android:text="@string/category_8"
+                    android:text="@string/category_19"
+                    android:textSize="18sp"
+                    app:cornerRadius="10dp" />
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:backgroundTint="@color/subtle_dark"
+                    android:fontFamily="@font/circularstd"
+                    android:text="@string/category_20"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />
             </LinearLayout>
