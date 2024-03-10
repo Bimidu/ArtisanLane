@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".Notifications_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/circularstd_medium"
+                android:text="@string/notifications"
+                android:textColor="@color/dark_grey"
+                android:textSize="34sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/medium_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    app:icon="@drawable/baseline_account_circle_24"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="44dp"
+                    app:iconTint="@color/medium_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/notification_test"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/circularstd"
+                        android:text="@string/notification_date"
+                        android:textColor="@color/medium_grey" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    app:icon="@drawable/baseline_close_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="28dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="48dp"
+                android:background="@color/medium_grey" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

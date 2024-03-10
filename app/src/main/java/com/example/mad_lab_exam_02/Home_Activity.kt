@@ -1,7 +1,9 @@
 package com.example.mad_lab_exam_02
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Home_Activity : AppCompatActivity() {
@@ -10,22 +12,29 @@ class Home_Activity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+        bottomNav.selectedItemId = R.id.navigation_home
         bottomNav.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
-                    // Handle home action
+
+                    val intent = Intent(this, Home_Activity::class.java)
+                    startActivity(intent)
+
                     true
                 }
                 R.id.navigation_explore -> {
-                    // Handle explore action
+                    val intent = Intent(this, Explore_Activity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.navigation_notifications -> {
-                    // Handle notifications action
+                    val intent = Intent(this, Notifications_Activity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.navigation_profile -> {
-                    // Handle profile action
+                    val intent = Intent(this, Profile_Activity::class.java)
+                    startActivity(intent)
                     true
                 }
                 else -> false

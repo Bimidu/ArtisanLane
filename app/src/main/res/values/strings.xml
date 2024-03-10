@@ -19,6 +19,10 @@
     <string name="more_categories">More Categories</string>
     <string name="categories">Categories</string>
 
+    <string name="notifications">Notifications</string>
+    <string name="notification_test">Discover the latest masterpiece just added to ArtisanLane. Explore now!</string>
+    <string name="notification_date">March 1, 2023</string>
+
     <string name="item1_name">Sri Lankan Traditional Mask</string>
     <string name="item1_desc">This mask is used as a home and wall decoration, expecting good fortune.</string>
     <string name="item1_price">LKR 1234.00</string>
@@ -67,8 +71,6 @@
     <string name="category_18">Embroidery and Needlework</string>
     <string name="category_19">Musical Instruments</string>
     <string name="category_20">Paper Crafts and Origami</string>
-
-
 
 
     <string name="next">Next</string>
