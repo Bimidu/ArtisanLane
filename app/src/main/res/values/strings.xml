@@ -14,7 +14,10 @@
     <string name="home">Home</string>
     <string name="home_desc">See featured products, categories and recommendations.</string>
     <string name="featured">Featured</string>
+    <string name="recommende_for_you">Recommended For You</string>
     <string name="see_all">See All</string>
+    <string name="more_categories">More Categories</string>
+    <string name="categories">Categories</string>
 
     <string name="item1_name">Sri Lankan Traditional Mask</string>
     <string name="item1_desc">This mask is used as a home and wall decoration, expecting good fortune.</string>
@@ -43,6 +46,30 @@
     <string name="item7_name">Pen Holder</string>
     <string name="item7_desc">These holders can be used for a variety of applications</string>
     <string name="item7_price">LKR 1234.00</string>
+
+    <string name="category_1">Paintings and Drawings</string>
+    <string name="category_2">Sculptures and Carvings</string>
+    <string name="category_3">Jewelry and Accessories</string>
+    <string name="category_4">Pottery and Ceramics</string>
+    <string name="category_5">Textiles and Fiber Arts</string>
+    <string name="category_6">Glass Art</string>
+    <string name="category_7">Woodworking</string>
+    <string name="category_8">Photography</string>
+    <string name="category_9">Printmaking</string>
+    <string name="category_10">Metalwork</string>
+    <string name="category_11">Mixed Media and Collage</string>
+    <string name="category_12">Digital Art and Illustration</string>
+    <string name="category_13">Candles and Home Fragrance</string>
+    <string name="category_14">Leather Goods</string>
+    <string name="category_15">Handmade Soaps and Skincare Products</string>
+    <string name="category_16">Upcycled and Recycled Art</string>
+    <string name="category_17">Miniatures and Dioramas</string>
+    <string name="category_18">Embroidery and Needlework</string>
+    <string name="category_19">Musical Instruments</string>
+    <string name="category_20">Paper Crafts and Origami</string>
+
+
+
 
     <string name="next">Next</string>
     <string name="get_started">Get Started</string>

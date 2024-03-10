@@ -6,6 +6,9 @@
         <item name="colorAccent">@color/accent_blue</item>
         <item name="android:statusBarColor">@color/light_grey</item>
         <item name="android:textColorPrimary">@color/dark_grey</item>
+        <item name="android:fontFamily">@font/circularstd_medium</item>
+
+
     </style>
 
     <style name="Theme.MAD_Lab_Exam_02" parent="Base.Theme.MAD_Lab_Exam_02" />
