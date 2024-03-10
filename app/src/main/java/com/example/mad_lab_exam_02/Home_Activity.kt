@@ -41,5 +41,17 @@ class Home_Activity : AppCompatActivity() {
             }
         }
 
+        val btnNavigate: Button = findViewById(R.id.seeallfeatured)
+        btnNavigate.setOnClickListener {
+            val intent = Intent(this, Featured_Activity::class.java)
+            startActivity(intent)
+        }
+
+        val btnNavigate2: Button = findViewById(R.id.seeallrecommended)
+        btnNavigate2.setOnClickListener {
+            val intent = Intent(this, Recommended_Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

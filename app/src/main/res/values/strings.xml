@@ -27,6 +27,12 @@
     <string name="notification_test">Discover the latest masterpiece just added to ArtisanLane. Explore now!</string>
     <string name="notification_date">March 1, 2023</string>
 
+    <string name="explore">Explore</string>
+    <string name="explore_desc">Explore local artist created artworks.</string>
+    <string name="search_hint">Search for all products</string>
+
+
+
     <string name="item1_name">Sri Lankan Traditional Mask</string>
     <string name="item1_desc">This mask is used as a home and wall decoration, expecting good fortune.</string>
     <string name="item1_price">LKR 1234.00</string>
@@ -82,5 +88,22 @@
     <string name="finish">Finish</string>
     <string name="image">image</string>
     <string name="buy">Buy</string>
+
+    <string name="my_products">My Products</string>
+    <string name="achievements">Achievements</string>
+    <string name="transactions">Transactions</string>
+    <string name="subscription">Subscription</string>
+
+    <string name="preferences">Preferences</string>
+    <string name="security_settings">Security Settings</string>
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="linked_accounts">Linked Accounts</string>
+    <string name="activity_history">Activity History</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="my_details">Y A G B M Gunathilake\n
+IT22240088\n
+Made for MAD Lab Exam 02\n
+10.03.2024</string>
 
 </resources>

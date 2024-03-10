@@ -65,7 +65,7 @@
                         android:textSize="24sp" />
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/seeallfeatured"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/circularstd_book"
@@ -356,7 +356,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/seeallrecommended"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

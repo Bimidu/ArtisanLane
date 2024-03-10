@@ -11,6 +11,8 @@ class Explore_Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_explore)
 
+
+
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNav.selectedItemId = R.id.navigation_explore
         bottomNav.setOnNavigationItemSelectedListener { item ->
