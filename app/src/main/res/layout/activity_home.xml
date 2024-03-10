@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".Home_Activity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circularstd_medium"
+                    android:text="@string/home"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="348dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/circularstd_book"
+                    android:text="@string/home_desc"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd_medium"
+                        android:gravity="start"
+                        android:text="@string/featured"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd_book"
+
+                        android:text="@string/see_all"
+                        android:textAlignment="center"
+                        android:textColor="@color/accent_blue" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="true"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/item1image"
+                            android:layout_width="350dp"
+                            android:layout_height="350dp"
+                            android:layout_marginStart="16dp"
+                            android:src="@tools:sample/avatars"
+                            android:tint="#72000000"
+                            app:srcCompat="@drawable/item1"
+                            tools:ignore="UseAppTint"
+                            android:contentDescription="@string/item1_name" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="16dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/item1text"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="32dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd_medium"
+                                android:lineSpacingExtra="10sp"
+                                android:text="@string/item1_name"
+                                android:textColor="@color/white"
+                                android:textSize="34sp" />
+
+                            <TextView
+                                android:id="@+id/item1text2"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd"
+                                android:lineSpacingExtra="4sp"
+                                android:text="@string/item1_desc"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+
+                            <Button
+                                android:id="@+id/item1button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:backgroundTint="@color/subtle"
+                                android:drawableEnd="@drawable/arrow_right"
+                                android:text="@string/buy"
+                                android:textColor="@color/dark_grey" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="0">
+
+                        <ImageView
+                            android:id="@+id/item2image"
+                            android:layout_width="350dp"
+                            android:layout_height="350dp"
+                            android:src="@tools:sample/avatars"
+                            android:tint="#72000000"
+                            app:srcCompat="@drawable/item2"
+                            android:contentDescription="@string/item2_name"
+                            tools:ignore="UseAppTint"
+                             />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/iem2text"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="32dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd_medium"
+                                android:lineSpacingExtra="10sp"
+                                android:text="@string/item2_name"
+                                android:textColor="@color/white"
+                                android:textSize="34sp" />
+
+                            <TextView
+                                android:id="@+id/item2text2"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd"
+                                android:lineSpacingExtra="4sp"
+                                android:text="@string/item2_desc"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+
+                            <Button
+                                android:id="@+id/button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:backgroundTint="@color/subtle"
+                                android:drawableEnd="@drawable/arrow_right"
+                                android:text="@string/buy"
+                                android:textColor="@color/dark_grey" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="350dp"
+                            android:layout_height="350dp"
+                            android:src="@tools:sample/avatars"
+                            android:tint="#72000000"
+                            app:srcCompat="@drawable/item3" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="32dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd_medium"
+                                android:lineSpacingExtra="10sp"
+                                android:text="@string/item3_name"
+                                android:textColor="@color/white"
+                                android:textSize="34sp" />
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd"
+                                android:lineSpacingExtra="4sp"
+                                android:text="@string/item3_desc"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+
+                            <Button
+                                android:id="@+id/button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:backgroundTint="@color/subtle"
+                                android:drawableEnd="@drawable/arrow_right"
+                                android:text="@string/buy"
+                                android:textColor="@color/dark_grey" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="350dp"
+                            android:layout_height="350dp"
+                            android:src="@tools:sample/avatars"
+                            android:tint="#72000000"
+                            app:srcCompat="@drawable/item4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="32dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd_medium"
+                                android:lineSpacingExtra="10sp"
+                                android:text="@string/item1_name"
+                                android:textColor="@color/white"
+                                android:textSize="34sp" />
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="318dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/circularstd"
+                                android:lineSpacingExtra="4sp"
+                                android:text="@string/item1_desc"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+
+                            <Button
+                                android:id="@+id/button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:backgroundTint="@color/subtle"
+                                android:drawableEnd="@drawable/arrow_right"
+                                android:text="@string/buy"
+                                android:textColor="@color/dark_grey" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemActiveIndicatorStyle="@style/Widget.Design.BottomNavigationView"
+        app:itemRippleColor="@color/medium_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
