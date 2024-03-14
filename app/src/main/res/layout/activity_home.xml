@@ -387,6 +387,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="@font/circularstd"
                     android:text="@string/see_all"
                     android:textColor="@color/accent_blue"
                     android:textSize="14sp" />
@@ -727,6 +728,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
+        app:itemIconSize="32dp"
+        app:itemTextAppearanceActive="@style/TextAppearance.Material3.LabelLarge"
         app:itemTextAppearanceActiveBoldEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

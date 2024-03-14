@@ -88,11 +88,12 @@
                     android:layout_width="32dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
+                    android:isScrollContainer="false"
                     app:icon="@drawable/baseline_close_24"
                     app:iconGravity="textStart"
-                    app:iconPadding="0dp"
+                    app:iconPadding="1dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -102,7 +103,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -163,7 +164,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -173,7 +174,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -234,7 +235,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -244,7 +245,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -305,7 +306,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -315,7 +316,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -376,7 +377,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -386,7 +387,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -447,7 +448,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -457,7 +458,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -518,7 +519,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -528,7 +529,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -589,7 +590,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -599,7 +600,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:background="@color/divider_grey" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -660,7 +661,7 @@
                     app:iconGravity="textStart"
                     app:iconPadding="0dp"
                     app:iconSize="28dp"
-                    app:iconTint="@color/black" />
+                    app:iconTint="@color/medium_grey" />
 
             </LinearLayout>
 
@@ -669,16 +670,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@color/medium_grey" />
+                android:layout_marginBottom="32dp"
+                android:background="@color/divider_grey" />
 
         </LinearLayout>
     </ScrollView>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
+        app:itemTextAppearanceActive="@style/TextAppearance.Material3.LabelLarge"
         app:itemTextAppearanceActiveBoldEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
